@@ -1,0 +1,61 @@
+TABLA PRINCIPAL #1:
+ 
+* LEXEMA : 'comprueba'
+  ATRIBUTOS:
+  + tipo : 'funcion'(este es de tipo  *funcion*)
+    + numParam : 1
+      + TipoParam01 : 'number'
+      + ModoParam01 : 1
+    + TipoRetorno : 'boolean'
+    + EtiqFuncion : 'Etcomprueba01'
+ 
+* LEXEMA : 'sinRecu'
+  ATRIBUTOS:
+  + tipo : 'funcion'(este es de tipo  *funcion*)
+    + numParam : 1
+      + TipoParam01 : 'boolean'
+      + ModoParam01 : 1
+    + TipoRetorno : 'boolean'
+    + EtiqFuncion : 'EtsinRecu01'
+ 
+* LEXEMA : 'vacaciones'
+  ATRIBUTOS:
+  + tipo : 'funcion'(este es de tipo  *funcion*)
+    + numParam : 0
+    + TipoRetorno : 'vacio'
+    + EtiqFuncion : 'Etvacaciones01'
+ 
+  ---------------------------------------------
+ 
+TABLA de la FUNCION comprueba #2:
+ 
+* LEXEMA : 'corte'
+  ATRIBUTOS:
+  + tipo : 'number'(este es de tipo  *number*)
+  + despl : 0
+ 
+* LEXEMA : 'nota'
+  ATRIBUTOS:
+  + tipo : 'number'(este es de tipo  *number*)
+  + despl : 1
+ 
+  ---------------------------------------------
+ 
+TABLA de la FUNCION sinRecu #3:
+ 
+* LEXEMA : 'resultado'
+  ATRIBUTOS:
+  + tipo : 'boolean'(este es de tipo  *boolean*)
+  + despl : 0
+ 
+  ---------------------------------------------
+ 
+TABLA de la FUNCION vacaciones #4:
+ 
+* LEXEMA : 'tengoCoche'
+  ATRIBUTOS:
+  + tipo : 'boolean'(este es de tipo  *boolean*)
+  + despl : 0
+ 
+  ---------------------------------------------
+ 

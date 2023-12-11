@@ -1,0 +1,1 @@
+ERROR: Cerca de la linea: 8 Descripcion: Error semantico en la regla 9 la declaracion del tipo de funcion no se corresponde con el valor retornado

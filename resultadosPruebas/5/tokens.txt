@@ -1,0 +1,106 @@
+<PAreserv, function>
+<PAreserv, boolean>
+<Id,1>
+<PARENTabr, >
+<PAreserv, number>
+<Id,1>
+<PARENTcerr, >
+<LLAVabr, >
+<PAreserv, let>
+<PAreserv, number>
+<Id,2>
+<puntoComa, >
+<PAreserv, alert>
+<PARENTabr, >
+<CAD, "Aprobado?">
+<PARENTcerr, >
+<puntoComa, >
+<PAreserv, input>
+<PARENTabr, >
+<Id,2>
+<PARENTcerr, >
+<puntoComa, >
+<PAreserv, return>
+<PARENTabr, >
+<PARENTabr, >
+<Id,2>
+<OpRel,mayor>
+<Id,1>
+<PARENTcerr, >
+<PARENTcerr, >
+<puntoComa, >
+<LLAVcerr, >
+<PAreserv, function>
+<PAreserv, boolean>
+<Id,2>
+<PARENTabr, >
+<PAreserv, boolean>
+<Id,1>
+<PARENTcerr, >
+<LLAVabr, >
+<PAreserv, if>
+<PARENTabr, >
+<Id,1>
+<PARENTabr, >
+<ENT, 4>
+<PARENTcerr, >
+<PARENTcerr, >
+<LLAVabr, >
+<PAreserv, alert>
+<PARENTabr, >
+<CAD, "No hay que ir a julio">
+<PARENTcerr, >
+<puntoComa, >
+<Id,1>
+<OPasig,  >
+<PAreserv, true>
+<puntoComa, >
+<LLAVcerr, >
+<PAreserv, else>
+<LLAVabr, >
+<PAreserv, alert>
+<PARENTabr, >
+<CAD, "Hay que ir a julio">
+<PARENTcerr, >
+<puntoComa, >
+<Id,1>
+<OPasig,  >
+<PAreserv, false>
+<puntoComa, >
+<LLAVcerr, >
+<PAreserv, return>
+<Id,1>
+<puntoComa, >
+<LLAVcerr, >
+<PAreserv, function>
+<Id,3>
+<PARENTabr, >
+<PARENTcerr, >
+<LLAVabr, >
+<PAreserv, let>
+<PAreserv, boolean>
+<Id,1>
+<puntoComa, >
+<Id,1>
+<OPasig,  >
+<PAreserv, true>
+<puntoComa, >
+<PAreserv, if>
+<PARENTabr, >
+<Id,2>
+<PARENTabr, >
+<PAreserv, true>
+<PARENTcerr, >
+<OPlogico,  >
+<Id,1>
+<PARENTcerr, >
+<PAreserv, alert>
+<PARENTabr, >
+<CAD, "Me voy de vacaciones">
+<PARENTcerr, >
+<puntoComa, >
+<LLAVcerr, >
+<Id,3>
+<PARENTabr, >
+<PARENTcerr, >
+<puntoComa, >

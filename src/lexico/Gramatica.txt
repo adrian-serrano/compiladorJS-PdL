@@ -1,0 +1,34 @@
+Simbolos terminales = { () {} ; , <> = + / " l d a _ & del eol λ}
+
+Simbolos no terminales = { S CAD PAL NUM DEC COMEN COMEN1 LOG }
+
+Axioma = S
+
+Produciones = {
+
+ S -> del S | d NUM | l PAL | " CAD | - DEC | / COMEN | & LOG | ( | ) | { | } | ; | , | < | > | = | +  
+ 
+ NUM -> d NUM | λ
+ 
+ PAL -> l PAL | d PAL | _ PAL |  λ
+  
+ CAD -> a CAD | "
+ 
+ DEC -> - | λ
+ 
+ COMEN -> / COMEN1
+ 
+ COMEN1 -> b COMEN1 | eol S
+ 
+ LOG  -> & | λ
+ 
+ }
+ 
+ Donde 
+ 
+ l = letra
+ d = digito
+ a = cualquier caracter menos las "
+ b = cualquier caracter
+ del = delimitador
+ eol = fin de linea

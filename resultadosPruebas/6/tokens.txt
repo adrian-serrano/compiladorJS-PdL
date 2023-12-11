@@ -1,0 +1,36 @@
+<PAreserv, let>
+<PAreserv, boolean>
+<Id,1>
+<puntoComa, >
+<PAreserv, function>
+<PAreserv, number>
+<Id,2>
+<PARENTabr, >
+<PAreserv, number>
+<Id,1>
+<PARENTcerr, >
+<LLAVabr, >
+<PAreserv, let>
+<PAreserv, number>
+<Id,2>
+<puntoComa, >
+<PAreserv, alert>
+<PARENTabr, >
+<CAD, "Sumar">
+<PARENTcerr, >
+<puntoComa, >
+<PAreserv, input>
+<PARENTabr, >
+<Id,2>
+<PARENTcerr, >
+<puntoComa, >
+<PAreserv, return>
+<PARENTabr, >
+<PARENTabr, >
+<Id,1>
+<OpRel,mayor>
+<Id,2>
+<PARENTcerr, >
+<PARENTcerr, >
+<puntoComa, >
+<LLAVcerr, >

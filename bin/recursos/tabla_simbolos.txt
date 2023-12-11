@@ -1,0 +1,62 @@
+TABLA PRINCIPAL #1:
+ 
+* LEXEMA : 'n1'
+  ATRIBUTOS:
+  + tipo : 'number'(este es de tipo  *number*)
+  + despl : 0
+ 
+* LEXEMA : 'n2'
+  ATRIBUTOS:
+  + tipo : 'number'(este es de tipo  *number*)
+  + despl : 1
+ 
+* LEXEMA : 'l1'
+  ATRIBUTOS:
+  + tipo : 'boolean'(este es de tipo  *boolean*)
+  + despl : 2
+ 
+* LEXEMA : 'l2'
+  ATRIBUTOS:
+  + tipo : 'boolean'(este es de tipo  *boolean*)
+  + despl : 3
+ 
+* LEXEMA : 'cad'
+  ATRIBUTOS:
+  + tipo : 'string'(este es de tipo  *string*)
+  + despl : 4
+ 
+* LEXEMA : 'ff'
+  ATRIBUTOS:
+  + tipo : 'funcion'(este es de tipo  *funcion*)
+    + numParam : 1
+      + TipoParam01 : 'boolean'
+      + ModoParam01 : 1
+    + TipoRetorno : 'boolean'
+    + EtiqFuncion : 'Etff01'
+ 
+* LEXEMA : 'varglobal'
+  ATRIBUTOS:
+  + tipo : 'number'(este es de tipo  *number*)
+  + despl : 68
+ 
+* LEXEMA : 'cad12'
+  ATRIBUTOS:
+  + tipo : 'string'(este es de tipo  *string*)
+  + despl : 69
+ 
+* LEXEMA : 'cad6541'
+  ATRIBUTOS:
+  + tipo : 'string'(este es de tipo  *string*)
+  + despl : 133
+ 
+  ---------------------------------------------
+ 
+TABLA de la FUNCION ff #2:
+ 
+* LEXEMA : 'ss'
+  ATRIBUTOS:
+  + tipo : 'boolean'(este es de tipo  *boolean*)
+  + despl : 0
+ 
+  ---------------------------------------------
+ 

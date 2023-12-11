@@ -1,0 +1,17 @@
+ERROR: Cerca de la linea: 7 Descripcion: Error semantico en la regla 20 el tipo de la expresion en input no es un numero o una cadena
+ERROR: Cerca de la linea: 8 Descripcion: Error semantico en la regla 27 el bloque o el cuerpo de la expresion no se han resuelto correctamente
+ERROR: Cerca de la linea: 8 Descripcion: Error semantico en la regla 27 el bloque o el cuerpo de la expresion no se han resuelto correctamente
+ERROR: Cerca de la linea: 8 Descripcion: Error semantico en la regla 27 el bloque o el cuerpo de la expresion no se han resuelto correctamente
+ERROR: Cerca de la linea: 15 Descripcion: Error semantico en la regla 43 la parte derecha de la suma no es de tipo entero
+ERROR: Cerca de la linea: 16 Descripcion: Error semantico en la regla 22 la expresion a la izquerda del igual es incorrecta
+ERROR: Cerca de la linea: 16 Descripcion: Error semantico en la regla 18 la parte posterior al id no se ha resuelto correctamente
+ERROR: Cerca de la linea: 22 Descripcion: Error semantico en la regla 27 el bloque o el cuerpo de la expresion no se han resuelto correctamente
+ERROR: Cerca de la linea: 22 Descripcion: Error semantico en la regla 27 el bloque o el cuerpo de la expresion no se han resuelto correctamente
+ERROR: Cerca de la linea: 22 Descripcion: Error semantico en la regla 27 el bloque o el cuerpo de la expresion no se han resuelto correctamente
+ERROR: Cerca de la linea: 22 Descripcion: Error semantico en la regla 27 el bloque o el cuerpo de la expresion no se han resuelto correctamente
+ERROR: Cerca de la linea: 22 Descripcion: Error semantico en la regla 27 el bloque o el cuerpo de la expresion no se han resuelto correctamente
+ERROR: Cerca de la linea: 24 Descripcion: Error semantico en la regla 9 la declaracion del tipo de funcion no se corresponde con el valor retornado
+ERROR: Cerca de la linea: 29 Descripcion: Error semantico en la regla 52 los parametros con los que se llama a la funcion no se corresponde con los esperados
+ERROR: Cerca de la linea: 30 Descripcion: Error semantico en la regla 22 la expresion a la izquerda del igual es incorrecta
+ERROR: Cerca de la linea: 30 Descripcion: Error semantico en la regla 18 la parte posterior al id no se ha resuelto correctamente
+ERROR: Cerca de la linea: 30 Descripcion: Error Sintactico en la linea: 30 columna:13

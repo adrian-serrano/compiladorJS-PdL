@@ -1,0 +1,107 @@
+<PAreserv, let>
+<PAreserv, number>
+<Id,1>
+<puntoComa, >
+<PAreserv, let>
+<PAreserv, number>
+<Id,2>
+<puntoComa, >
+<PAreserv, let>
+<PAreserv, boolean>
+<Id,3>
+<puntoComa, >
+<PAreserv, let>
+<PAreserv, boolean>
+<Id,4>
+<puntoComa, >
+<PAreserv, input>
+<PARENTabr, >
+<Id,1>
+<PARENTcerr, >
+<puntoComa, >
+<Id,3>
+<OPasig,  >
+<Id,4>
+<puntoComa, >
+<PAreserv, let>
+<PAreserv, string>
+<Id,5>
+<puntoComa, >
+<PAreserv, if>
+<PARENTabr, >
+<Id,3>
+<OPlogico,  >
+<Id,4>
+<PARENTcerr, >
+<Id,5>
+<OPasig,  >
+<CAD, "hello">
+<puntoComa, >
+<Id,2>
+<OPasig,  >
+<Id,1>
+<OParit, mas>
+<ENT, 378>
+<puntoComa, >
+<PAreserv, alert>
+<PARENTabr, >
+<ENT, 33>
+<OParit, menos>
+<Id,1>
+<OParit, mas>
+<Id,2>
+<PARENTcerr, >
+<puntoComa, >
+<PAreserv, function>
+<PAreserv, boolean>
+<Id,6>
+<PARENTabr, >
+<PAreserv, boolean>
+<Id,1>
+<PARENTcerr, >
+<LLAVabr, >
+<Id,4>
+<OPasig,  >
+<Id,3>
+<puntoComa, >
+<PAreserv, if>
+<PARENTabr, >
+<Id,4>
+<PARENTcerr, >
+<Id,3>
+<OPasig,  >
+<Id,6>
+<PARENTabr, >
+<Id,1>
+<PARENTcerr, >
+<puntoComa, >
+<Id,7>
+<OPasig,  >
+<ENT, 88>
+<puntoComa, >
+<PAreserv, return>
+<PARENTabr, >
+<Id,1>
+<PARENTcerr, >
+<puntoComa, >
+<LLAVcerr, >
+<PAreserv, let>
+<PAreserv, string>
+<Id,8>
+<puntoComa, >
+<PAreserv, let>
+<PAreserv, string>
+<Id,9>
+<puntoComa, >
+<PAreserv, if>
+<PARENTabr, >
+<Id,6>
+<PARENTabr, >
+<Id,4>
+<PARENTcerr, >
+<PARENTcerr, >
+<PAreserv, alert>
+<PARENTabr, >
+<Id,7>
+<PARENTcerr, >
+<puntoComa, >

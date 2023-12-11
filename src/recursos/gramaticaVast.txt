@@ -1,0 +1,81 @@
+Terminales = { true false let id if ent else PARENTabr PARENTcerr LLAVabr LLAVcerr puntoComa function igual return coma menor mayor mas menos number string boolean OPdecr cad and alert input }
+
+
+Axioma = START
+
+NoTerminales = { START STARTSL MAIN BLOQUE BLOQUE2 BLOQUE3 BLOQUE4 FUNCION TIPO EXPRESION EXPRESION1 CUERPO SENCILLOFUN SENTENCIA SENTENCIA2 ARGUMENTOS ARGUMENTOS2 CALLFUN CALLFUN2 ARITMETICA SENCILLO RETURN }
+
+Producciones = {
+	START -> STARTSL
+
+	STARTSL -> MAIN
+	
+	STARTSL -> lambda
+	
+	MAIN -> FUNCION //// El programa puede leer una Funcion
+	MAIN -> FUNCION MAIN //// El programa puede leer una función hacer un sl y leer de nuevo 
+	MAIN -> BLOQUE  //// El programa puede leer un bloque de información
+	MAIN -> BLOQUE MAIN  //// El programa puede leer un bloque de información hacer un sl y leer de nuevo
+		
+	FUNCION -> function TIPO id  PARENTabr ARGUMENTOS PARENTcerr LLAVabr CUERPO  LLAVcerr 
+
+	BLOQUE -> let TIPO id puntoComa
+    BLOQUE -> SENTENCIA
+    BLOQUE -> if  PARENTabr  EXPRESION  PARENTcerr BLOQUE2   
+    BLOQUE2 -> SENTENCIA
+    BLOQUE2 -> BLOQUE3 
+    BLOQUE3 -> LLAVabr  CUERPO  LLAVcerr BLOQUE4
+    BLOQUE4 -> lambda
+    BLOQUE4 -> else LLAVabr CUERPO  LLAVcerr    
+
+    SENTENCIA -> id  SENTENCIA2
+    SENTENCIA -> alert  PARENTabr  EXPRESION  PARENTcerr puntoComa
+    SENTENCIA -> input  PARENTabr  id  PARENTcerr puntoComa
+    SENTENCIA -> return  RETURN puntoComa
+    SENTENCIA2 ->   igual EXPRESION  puntoComa
+    SENTENCIA2 ->   mas  EXPRESION  puntoComa
+    SENTENCIA2 ->   menos  EXPRESION puntoComa
+    SENTENCIA2 ->  OPdecr puntoComa
+    SENTENCIA2 ->  PARENTabr  CALLFUN  PARENTcerr puntoComa
+
+	CUERPO -> BLOQUE CUERPO  //// Parte del codigo que esta entre dos llaves
+	CUERPO -> lambda
+
+	RETURN -> EXPRESION //// return del tipo: return a + b;
+	RETURN -> lambda ////Puede ser un return;
+
+	CALLFUN -> EXPRESION  CALLFUN2  
+	CALLFUN -> lambda
+
+	CALLFUN2 -> coma  EXPRESION  CALLFUN2  
+	CALLFUN2 -> lambda
+
+	ARGUMENTOS -> TIPO id ARGUMENTOS2 ////Argumentos de 1 a X Ej: number n, number e 
+	ARGUMENTOS -> lambda
+	ARGUMENTOS2 -> coma TIPO  id  ARGUMENTOS2  
+	ARGUMENTOS2 -> lambda
+	
+	EXPRESION -> EXPRESION  and EXPRESION1
+    EXPRESION -> EXPRESION1
+    EXPRESION1 -> EXPRESION1  menor  ARITMETICA 
+    EXPRESION1 -> EXPRESION1  mayor  ARITMETICA
+    EXPRESION1 -> ARITMETICA ////Para garantizar la precedencia de operadores hemos añadido EXPRESION1
+
+	ARITMETICA -> ARITMETICA  mas SENCILLO    //// 1 + 2
+	ARITMETICA -> ARITMETICA  menos SENCILLO  //// 1 - 2
+	ARITMETICA -> SENCILLO 
+  
+ 	TIPO -> number   ////Tipo de declaracion de variables
+  	TIPO -> string
+  	TIPO -> boolean
+  	TIPO -> lambda
+
+	SENCILLO -> PARENTabr  EXPRESION  PARENTcerr  //// Calcular un valor entre parentesis Ej: (2+2)
+	SENCILLO -> id SENCILLOFUN  //// Variable o nombre de funcion Ej: a
+	SENCILLO -> ent //// Valor numerico Ej: 25
+	SENCILLO -> cad
+	SENCILLO -> true
+	SENCILLO -> false
+	SENCILLOFUN -> lambda
+	SENCILLOFUN -> PARENTabr CALLFUN  PARENTcerr  //// LLamar a una funcion Ej: FactorialDo (n)
+}

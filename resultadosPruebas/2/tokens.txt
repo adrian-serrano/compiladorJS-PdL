@@ -1,0 +1,89 @@
+<PAreserv, let>
+<PAreserv, boolean>
+<Id,1>
+<puntoComa, >
+<PAreserv, function>
+<PAreserv, number>
+<Id,2>
+<PARENTabr, >
+<PAreserv, number>
+<Id,1>
+<PARENTcerr, >
+<LLAVabr, >
+<PAreserv, let>
+<PAreserv, number>
+<Id,2>
+<puntoComa, >
+<PAreserv, let>
+<PAreserv, number>
+<Id,3>
+<puntoComa, >
+<Id,1>
+<OPasig,  >
+<ENT, 5>
+<puntoComa, >
+<Id,2>
+<OPasig,  >
+<ENT, 4>
+<puntoComa, >
+<Id,3>
+<OPasig,  >
+<Id,1>
+<OParit, mas>
+<Id,2>
+<puntoComa, >
+<PAreserv, return>
+<Id,3>
+<puntoComa, >
+<LLAVcerr, >
+<PAreserv, function>
+<PAreserv, boolean>
+<Id,3>
+<PARENTabr, >
+<PAreserv, number>
+<Id,1>
+<coma, >
+<PAreserv, number>
+<Id,2>
+<PARENTcerr, >
+<LLAVabr, >
+<PAreserv, let>
+<PAreserv, boolean>
+<Id,3>
+<puntoComa, >
+<PAreserv, alert>
+<PARENTabr, >
+<CAD, "Sera menor ">
+<PARENTcerr, >
+<puntoComa, >
+<PAreserv, alert>
+<PARENTabr, >
+<Id,1>
+<PARENTcerr, >
+<puntoComa, >
+<PAreserv, if>
+<PARENTabr, >
+<Id,1>
+<OpRel,mayor>
+<Id,4>
+<PARENTcerr, >
+<LLAVabr, >
+<Id,3>
+<OPasig,  >
+<PAreserv, true>
+<puntoComa, >
+<PAreserv, return>
+<Id,3>
+<puntoComa, >
+<LLAVcerr, >
+<PAreserv, else>
+<LLAVabr, >
+<Id,3>
+<OPasig,  >
+<PAreserv, false>
+<puntoComa, >
+<PAreserv, return>
+<Id,3>
+<puntoComa, >
+<LLAVcerr, >
+<LLAVcerr, >

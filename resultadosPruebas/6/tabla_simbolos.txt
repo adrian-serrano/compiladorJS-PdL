@@ -1,0 +1,32 @@
+TABLA PRINCIPAL #1:
+ 
+* LEXEMA : 'booleano'
+  ATRIBUTOS:
+  + tipo : 'boolean'(este es de tipo  *boolean*)
+  + despl : 0
+ 
+* LEXEMA : 'suma'
+  ATRIBUTOS:
+  + tipo : 'funcion'(este es de tipo  *funcion*)
+    + numParam : 1
+      + TipoParam01 : 'number'
+      + ModoParam01 : 1
+    + TipoRetorno : 'boolean'
+    + EtiqFuncion : 'Etsuma01'
+ 
+  ---------------------------------------------
+ 
+TABLA de la FUNCION suma #2:
+ 
+* LEXEMA : 'a'
+  ATRIBUTOS:
+  + tipo : 'number'(este es de tipo  *number*)
+  + despl : 0
+ 
+* LEXEMA : 'b'
+  ATRIBUTOS:
+  + tipo : 'number'(este es de tipo  *number*)
+  + despl : 1
+ 
+  ---------------------------------------------
+ 

@@ -1,0 +1,58 @@
+<PAreserv, let>
+<PAreserv, boolean>
+<Id,1>
+<puntoComa, >
+<PAreserv, if>
+<PARENTabr, >
+<ENT, 5>
+<OpRel,mayor>
+<ENT, 4>
+<PARENTcerr, >
+<LLAVabr, >
+<Id,1>
+<OPasig,  >
+<PAreserv, true>
+<puntoComa, >
+<PAreserv, alert>
+<PARENTabr, >
+<CAD, "verdad">
+<PARENTcerr, >
+<puntoComa, >
+<LLAVcerr, >
+<PAreserv, function>
+<PAreserv, number>
+<Id,2>
+<PARENTabr, >
+<PAreserv, number>
+<Id,1>
+<PARENTcerr, >
+<LLAVabr, >
+<PAreserv, let>
+<PAreserv, number>
+<Id,2>
+<puntoComa, >
+<PAreserv, let>
+<PAreserv, number>
+<Id,3>
+<puntoComa, >
+<Id,1>
+<OPasig,  >
+<ENT, 5>
+<puntoComa, >
+<Id,2>
+<OPasig,  >
+<ENT, 4>
+<puntoComa, >
+<Id,3>
+<OPasig,  >
+<Id,1>
+<OParit, mas>
+<Id,2>
+<puntoComa, >
+<Id,3>
+<OPdecr,  >
+<puntoComa, >
+<PAreserv, return>
+<Id,3>
+<puntoComa, >
+<LLAVcerr, >

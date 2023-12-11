@@ -1,0 +1,1 @@
+ERROR: Cerca de la linea: 2 Descripcion: Nombre de la variable ya existente en la linea 2, columna 15
